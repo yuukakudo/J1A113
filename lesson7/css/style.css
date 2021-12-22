@@ -424,6 +424,7 @@ button[type="submit"]:hover {
   /* 横並び */
   .row {
     /* flexbox（横並びにする要素の親に指定） */
+
     display: flex;
     justify-content: space-between;
   }
