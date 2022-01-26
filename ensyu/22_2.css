@@ -20,6 +20,8 @@ th,td {
 .first th {
     width: 35%;
     background: #069;
+    color: #fff;
+    font-weight: bold;
     text-align: center;
 }
 td {

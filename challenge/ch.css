@@ -8,8 +8,8 @@
 
 body {
     background: #f8d8bf;
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
 }
 
 article {
@@ -63,7 +63,7 @@ address {
 }
 
 .btnArea {
-    margin: 40px;
+    margin-top: 40px;
 }
 
 p.btn {
