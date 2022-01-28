@@ -182,6 +182,7 @@ li {
 }
 .main-visual-text {
   flex: 1;
+  text-align: center;
 }
 .main-visual-text p:not(:last-child) {
   margin-bottom: 30px;
@@ -425,13 +426,13 @@ li {
 ---------------------------------*/
 .footer {
   padding: 30px;
-  background-color: #333;
+  background-color: #948e8e;
 }
 
 .copyright {
   font-size: 10px;
   text-align: center;
-  color: #797979;
+  color: #fff;
 }
 
 /*--------------------------------
@@ -563,6 +564,7 @@ li {
 
   .main-visual-text p:not(:last-child) {
     margin-bottom: 20px;
+    text-align: center;
   }
 
   /* Works */
@@ -612,10 +614,18 @@ li {
   /* フッター */
   .footer {
     padding: 20px;
+    
   }
+
 
   /* 下層ページ */
   .article {
     padding: 50px 0;
   }
+}
+
+.pagetop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }
