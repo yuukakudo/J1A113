@@ -220,10 +220,12 @@ li {
   padding: 8px 16px;
   border: 1px dashed #FFF;
   box-shadow: 0px 0px 0px 2px #293b6a;/* box-shadowで外枠を */
+  transition: border-radius 0.2s;
 }
 
 .btn-denim:hover {
   border-style: solid;
+  border-radius: 50%;
 }
 
 .btn-open {
@@ -240,7 +242,7 @@ li {
   border: 2px solid #9ec34b;
   position: relative;
   overflow: hidden;
-  z-index: 1;
+  transition: border-radius 0.2s;
 }
 .btn-open:after{
   width: 100%;
@@ -256,7 +258,8 @@ li {
   z-index: -1;
 }
 .btn-open:hover{
-  color: #9ec34b;
+  color: #fff;
+  border-radius: 50%;
 }
 .btn-open:hover:after{
   height: 240%;
@@ -284,6 +287,7 @@ li {
 .btn-box:hover {
   border: 2px solid transparent;
   color: #000;
+  border-radius: 50%;
 }
 
 .btn-box:before, .btn-box:after {
@@ -329,10 +333,12 @@ li {
   background-image: linear-gradient(-90deg, #89eb75, #f1e753);
   transition: .5s;
   background-size: 200%;
+  transition: .2s;
 }
 
 .btn-gradation:hover {
   background-position: right center;
+  border-radius: 50%;
 }
 
 /*--------------------------------
@@ -357,8 +363,11 @@ li {
   width: 60px;
   height: auto;
   margin-right: 20px;
+  transition: transform 0.2s ease-in-out 0.2s;
 }
-
+.skill-img:hover {
+  transform: scale(1.5);
+}
 .skill-body {
   flex: 1;
 }
